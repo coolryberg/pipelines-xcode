@@ -14,7 +14,7 @@ variables:
 steps:
 - task: Xcode@5
   inputs:
-    scheme: '${scheme}'
+    scheme: ''
     sdk: 'iphoneos'
     configuration: '${configuration}'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
