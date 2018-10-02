@@ -8,7 +8,7 @@ pool:
 
 variables:
   scheme: ''
-  sdk: 'iphoneos12.0'
+  sdk: 'iphoneos'
   configuration: 'Release'
 
 steps:
