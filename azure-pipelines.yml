@@ -15,7 +15,7 @@ steps:
 - task: Xcode@5
   inputs:
     scheme: '${scheme}'
-    sdk: '${sdk}'
+    sdk: 'iphoneos'
     configuration: '${configuration}'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
     exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
